@@ -2,3 +2,4 @@ data
 data.pkl
 data.zip
 crop_disease_model.h5
+.venv

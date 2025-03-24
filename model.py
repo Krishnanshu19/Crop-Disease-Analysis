@@ -3,7 +3,9 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import pickle
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow import keras
+# from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from keras.applications import ImageDataGenerator
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 
