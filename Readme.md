@@ -11,8 +11,7 @@ It uses **Machine Learning and Deep Learning** techniques to analyze images and 
 
 ---
 
-## 📂 Features  
-- **Automatic dataset download** from Kaggle 📥  
+## 📂 Features    
 - **Preprocessing and training** of the model 📊  
 - **Real-time prediction** on new images 📸  
 - **Automated execution** to simplify workflow ⚙️  
@@ -22,8 +21,14 @@ It uses **Machine Learning and Deep Learning** techniques to analyze images and 
 ## 🛠 Installation  
 
 ### **1️⃣ Install Dependencies**  
-Ensure you have **Python 3.12** installed, then run:  
+Ensure you have **Anaconda/Miniconda** installed, then run:  
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate .venv
+```
 
+To deactivate the Environment
+```bash
+conda deactivate
+```
 
