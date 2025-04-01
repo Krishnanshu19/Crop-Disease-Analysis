@@ -5,7 +5,8 @@ import tensorflow as tf
 import pickle
 from tensorflow import keras
 # from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from keras.applications import ImageDataGenerator
+# from keras.applications import ImageDataGenerator
+from keras_preprocessing.image import ImageDataGenerator
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 
